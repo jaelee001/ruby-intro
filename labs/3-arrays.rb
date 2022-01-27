@@ -14,3 +14,14 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_shopping_list = ["milk", "eggs", "beer"]
+your_shopping_list = ["beer", "cookies", "apples"]
+
+# my_shopping_list = my_shopping_list.sort {|a, b| b <=> a}.reverse
+# your_shopping_list = your_shopping_list.sort {|a, b| b <=> a}.reverse
+
+combined_shopping_list = [[my_shopping_list],[your_shopping_list]]
+unique_combined_shopping_list = combined_shopping_list.uniq.sort
+# sorted_combined_shopping_list = unique_combined_shopping_list.sort
+puts unique_combined_shopping_list
