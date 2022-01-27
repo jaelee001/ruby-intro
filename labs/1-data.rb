@@ -20,3 +20,8 @@
 # "i would like " + 5 + " tacos"
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
+
+dice1 = rand(1..6)
+dice2 = rand(1..6)
+puts "#{dice1}"
+puts "#{dice2}"
